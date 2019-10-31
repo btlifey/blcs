@@ -3,6 +3,7 @@ package blcs.lwb.utils.fragment.MPAndroidChart;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,7 +25,7 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.annotation.NonNull;
+
 import blcs.lwb.lwbtool.base.BasePresenter;
 import blcs.lwb.utils.MyApplication;
 import blcs.lwb.utils.R;

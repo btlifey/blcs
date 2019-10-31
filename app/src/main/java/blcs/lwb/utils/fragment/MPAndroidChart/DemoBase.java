@@ -5,6 +5,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.view.LayoutInflater;
@@ -12,8 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 import com.github.mikephil.charting.charts.Chart;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+
 import blcs.lwb.utils.MyApplication;
 import blcs.lwb.utils.fragment.BaseFragment;
 

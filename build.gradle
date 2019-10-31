@@ -1,13 +1,16 @@
 apply from : "config.gradle"
 buildscript {
     repositories {
-        google()
-        jcenter()
+//        google()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven{url"https://maven.google.com"}
+//        jcenter()
         maven { url "https://jitpack.io" }
         mavenCentral()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
         classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -16,8 +19,10 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
-        jcenter()
+//        google()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven{url"https://maven.google.com"}
+//        jcenter()
         maven { url "https://jitpack.io" }
         mavenCentral()
     }
